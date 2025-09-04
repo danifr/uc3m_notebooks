@@ -17,6 +17,7 @@
     "requires-python": ">=3.9,<3.13",
     "requirements": [
         "Neurom>=4.0.4",
+        "matplotlib>=3.7.5",
         "entitysdk>=0.5.0",
         "obi-auth>=0.3.0",
         "obi-notebook>=0.1.dev10"
