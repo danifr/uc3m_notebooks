@@ -1,7 +1,7 @@
 # The action potential
 Copyright (c) 2025 Open Brain Institute
 
-Authors: Ilkan Kilic and Natali Barros Zulaica
+Authors: Ilkan Kilic 
 
 last modified: 09.2025
 
