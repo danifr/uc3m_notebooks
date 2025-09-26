@@ -1,14 +1,14 @@
 {
-    "name": "Passive and active membrane properties",
+    "name": "Load, visualize and analyze two neuronal morphologies",
     "authors": ["OBI", "Natali Barros Zulaica"],
-    "description": "Exploring passive and active membrane properties using two single cell toy models",
+    "description": "In this tutorial, we perform basic morphometric manalyses to two neuronal morphologies in order to compare them",
     "scale": "cellular",
     "type": "notebook",
     "kernel": "python",
     "input": [
         {
             "data_type": {
-                "artefact": "SimulatableNeuron",
+                "artefact": "CellMorphology",
                 "required_properties": []
             },
             "class": "single"
@@ -16,9 +16,10 @@
     ],
     "requires-python": ">=3.9,<3.13",
     "requirements": [
-        "bluecellulab>=2.6.68",
-        "NEURON>=8.0.2,<9.0.0",
+        "Neurom>=4.0.4",
+        "matplotlib>=3.7.5",
         "entitysdk>=0.5.0",
-        "obi-auth>=0.3.0"
+        "obi-auth>=0.3.0",
+        "obi-notebook>=0.1.dev10"
     ]
 }
