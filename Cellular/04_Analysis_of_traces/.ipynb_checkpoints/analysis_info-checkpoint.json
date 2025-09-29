@@ -1,0 +1,24 @@
+{
+    "name": "Passive and active membrane properties",
+    "authors": ["OBI", "Natali Barros Zulaica"],
+    "description": "Exploring passive and active membrane properties using two single cell toy models",
+    "scale": "cellular",
+    "type": "notebook",
+    "kernel": "python",
+    "input": [
+        {
+            "data_type": {
+                "artefact": "SimulatableNeuron",
+                "required_properties": []
+            },
+            "class": "single"
+        }
+    ],
+    "requires-python": ">=3.9,<3.13",
+    "requirements": [
+        "bluecellulab>=2.6.68",
+        "NEURON>=8.0.2,<9.0.0",
+        "entitysdk>=0.5.0",
+        "obi-auth>=0.3.0"
+    ]
+}
