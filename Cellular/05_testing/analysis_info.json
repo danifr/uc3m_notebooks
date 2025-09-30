@@ -1,0 +1,24 @@
+{
+    "name": "The action potential",
+    "authors": ["OBI", "Ilkan Kiliç"],
+    "description": "In this example, we simulate a single neuron (me-model) and record its membrane potential (v) along with sodium (Na⁺, ina) and potassium (K⁺, ik) ionic currents. By analyzing these currents during an evoked action potential, we observe how Na⁺ and K⁺ shapes the overall waveform of the action potential.",
+    "scale": "cellular",
+    "type": "notebook",
+    "kernel": "python",
+    "input": [
+        {
+            "data_type": {
+                "artefact": "SimulatableNeuron",
+                "required_properties": []
+            },
+            "class": "single"
+        }
+    ],
+    "requires-python": ">=3.9,<3.13",
+    "requirements": [
+        "bluecellulab>=2.6.68",
+        "NEURON>=8.0.2,<9.0.0",
+        "entitysdk>=0.5.0",
+        "obi-auth>=0.3.0"
+    ]
+}
