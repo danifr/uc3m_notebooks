@@ -1,12 +1,12 @@
-# Analysis of electro-physiological traces
+# The action potential
 Copyright (c) 2025 Open Brain Institute
 
-Authors: Natali Barros Zuliaca
+Authors: Test testing
 
 last modified: 09.2025
 
 ## Summary
-Exploring firing patterns from two different cell types
+This is a summary danielfr
 
 ## Use
 In order to run this notebook, you will have to install the dependencies listed in analysis_info.json in requirements.
